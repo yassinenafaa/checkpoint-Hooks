@@ -1,0 +1,25 @@
+.moviecard {
+    margin-right: 2%;
+    height: 600px;
+}
+
+.img-card {
+    height: 400px;
+}
+
+.desc {
+    width: 250px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.test {
+    /* Set a fixed width */
+    white-space: nowrap;
+    /* Prevents text from wrapping to the next line */
+    overflow: hidden;
+    /* Ensures that the overflowing text is hidden */
+    text-overflow: ellipsis;
+    /* Adds the ellipsis (...) when text is truncated */
+}
